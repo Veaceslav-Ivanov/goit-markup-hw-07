@@ -1,3 +1,8 @@
+.address {
+  font-style: normal;
+  margin-top: 20px;
+}
+
 .address__link {
   font-family: var(--main-font);
   font-size: 14px;
@@ -5,14 +10,9 @@
   letter-spacing: 0.03em;
   color: var(--text-color-white);
   transition: var(--btn-sh-duration) var(--btn-sh-function);
-}
 
-.address__link:hover,
-.address__link:focus {
-  color: var(--accent-color);
-}
-
-.address {
-  font-style: normal;
-  margin-top: 20px;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

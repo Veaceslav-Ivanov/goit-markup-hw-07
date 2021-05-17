@@ -8,22 +8,23 @@
   justify-content: center;
   margin-left: auto;
 }
+
 .item {
   margin: 0px;
   margin-top: 50px;
+
+  .advantages__list &:not(:first-child) {
+    margin-left: 15px;
+  }
+
+  .advantages__list &:not(:last-child) {
+    margin-right: 15px;
+  }
 }
 
 .advantages__list .item {
   width: 270px;
   margin-top: 0;
-}
-
-.advantages__list .item:not(:first-child) {
-  margin-left: 15px;
-}
-
-.advantages__list .item:not(:last-child) {
-  margin-right: 15px;
 }
 
 .advantages__icon {

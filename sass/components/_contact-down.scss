@@ -1,4 +1,22 @@
-.contact-footer__email,
+.contact-footer__mode {
+  margin-top: 9px;
+}
+
+.contact-footer__email {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+  transition: var(--btn-sh-duration) var(--btn-sh-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
 .contact-footer__tel {
   font-family: var(--main-font);
   font-size: 14px;
@@ -7,15 +25,9 @@
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
   transition: var(--btn-sh-duration) var(--btn-sh-function);
-}
 
-.contact-footer__email:hover,
-.contact-footer__email:focus,
-.contact-footer__tel:hover,
-.contact-footer__tel:focus {
-  color: var(--accent-color);
-}
-
-.contact-footer__mode {
-  margin-top: 9px;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

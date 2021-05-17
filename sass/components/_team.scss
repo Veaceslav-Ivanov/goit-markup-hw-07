@@ -73,12 +73,12 @@
   align-items: center;
   justify-content: center;
   transition: var(--btn-sh-duration) var(--btn-sh-function);
-}
 
-.team-social__link:hover,
-.team-social__link:focus {
-  background-color: var(--accent-color);
-  color: var(--text-color-white);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--text-color-white);
+  }
 }
 
 .team-social__item:not(:last-child) {

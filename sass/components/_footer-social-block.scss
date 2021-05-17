@@ -21,11 +21,11 @@
   align-items: center;
   justify-content: center;
   transition: var(--btn-sh-duration) var(--btn-sh-function);
-}
 
-.footer-social__link:hover,
-.footer-social__link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer-social__item:not(:last-child) {

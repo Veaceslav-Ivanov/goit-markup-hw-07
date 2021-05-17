@@ -36,9 +36,9 @@
   letter-spacing: 0.02em;
   color: var(--main-text);
   transition: var(--btn-sh-duration) var(--btn-sh-function);
-}
 
-.contact__link-up:hover,
-.contact__link-up:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

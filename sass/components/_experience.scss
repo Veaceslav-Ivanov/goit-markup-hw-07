@@ -22,14 +22,14 @@
 
 .experience__item {
   margin-bottom: 0;
-}
 
-.experience__item:not(:first-child) {
-  margin-left: 0;
-}
+  &:not(:first-child) {
+    margin-left: 0;
+  }
 
-.experience__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .experience__thumb {

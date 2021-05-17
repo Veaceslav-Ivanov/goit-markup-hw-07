@@ -24,13 +24,13 @@
   padding: 15px 16px;
   background-color: #2f303a;
   transition: border var(--btn-sh-duration) var(--btn-sh-function);
-}
 
-.footer-subscribe__input:hover,
-.footer-subscribe__input:focus {
-  border: 1px solid var(--accent-color);
-  cursor: pointer;
-  outline: none;
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    cursor: pointer;
+    outline: none;
+  }
 }
 
 .footer-btn-scb {
@@ -50,15 +50,15 @@
   background-color: var(--accent-color);
   cursor: pointer;
   transition: background-color var(--btn-sh-duration) var(--btn-sh-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn-hover-color);
+  }
 }
 
 .footer-icon-send {
   margin-left: 10px;
   width: 24px;
   height: 24px;
-}
-
-.footer-btn-scb:hover,
-.footer-btn-scb:focus {
-  background-color: var(--btn-hover-color);
 }

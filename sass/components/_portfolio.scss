@@ -30,14 +30,14 @@
   margin-right: 8px;
   background: #f5f4fa;
   transition: var(--btn-sh-duration) var(--btn-sh-function);
-}
 
-.portfolio__cursor-btn:hover,
-.portfolio__cursor-btn:focus {
-  background: var(--accent-color);
-  color: var(--text-color-white);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  &:hover,
+  &:focus {
+    background: var(--accent-color);
+    color: var(--text-color-white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
 
 .portfolio__projects-list {
@@ -70,11 +70,11 @@
 
 .portfolio__link {
   display: block;
-}
 
-.portfolio__link:hover,
-.portfolio__link:focus {
-  box-shadow: var(--modal-win-box-shadow);
+  &:hover,
+  &:focus {
+    box-shadow: var(--modal-win-box-shadow);
+  }
 }
 
 .portfolio__overlay-card {
@@ -98,14 +98,14 @@
   transition: var(--btn-sh-duration) var(--btn-sh-function);
   overflow: hidden;
   padding: 63px 24px;
+
+  .portfolio__link:hover & {
+    transform: translateY(0);
+  }
 }
 
 .portfolio__thumb-card {
   background: var(--modal-win-bg-cl);
   border: 1px solid #eeeeee;
   padding: 20px 24px;
-}
-
-.portfolio__link:hover .portfolio__text-overlay {
-  transform: translateY(0);
 }

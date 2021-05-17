@@ -48,9 +48,9 @@
   padding: 10px 32px;
   margin-top: 30px;
   transition: var(--btn-sh-duration) var(--btn-sh-function);
-}
 
-.hero__btn:hover,
-.hero__btn:focus {
-  background-color: var(--btn-hover-color);
+  &:hover,
+  &:focus {
+    background-color: var(--btn-hover-color);
+  }
 }
