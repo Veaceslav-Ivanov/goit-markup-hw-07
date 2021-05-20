@@ -236,7 +236,7 @@ body {
   margin-top: 9px;
 }
 
-.contact-footer__email {
+.contact-footer__link {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
@@ -246,21 +246,7 @@ body {
   transition: var(--btn-sh-duration) var(--btn-sh-function);
 }
 
-.contact-footer__email:hover, .contact-footer__email:focus {
-  color: var(--accent-color);
-}
-
-.contact-footer__tel {
-  font-family: var(--main-font);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
-  transition: var(--btn-sh-duration) var(--btn-sh-function);
-}
-
-.contact-footer__tel:hover, .contact-footer__tel:focus {
+.contact-footer__link:hover, .contact-footer__link:focus {
   color: var(--accent-color);
 }
 
@@ -678,8 +664,7 @@ body {
 }
 
 .item {
-  margin: 0px;
-  margin-top: 50px;
+  width: 270px;
 }
 
 .advantages__list .item:not(:first-child) {
@@ -688,11 +673,6 @@ body {
 
 .advantages__list .item:not(:last-child) {
   margin-right: 15px;
-}
-
-.advantages__list .item {
-  width: 270px;
-  margin-top: 0;
 }
 
 .advantages__icon {
@@ -897,9 +877,6 @@ body {
 
 .clients__item {
   width: 170px;
-  height: 92px;
-  margin: 0;
-  margin-bottom: 0;
 }
 
 .clients__list .clients__item:not(:first-child) {

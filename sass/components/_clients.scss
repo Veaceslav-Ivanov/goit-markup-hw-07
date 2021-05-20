@@ -25,9 +25,8 @@
 
 .clients__item {
   width: 170px;
-  height: 92px;
-  margin: 0;
-  margin-bottom: 0;
+  // margin: 0;
+  // margin-bottom: 0;
 
   .clients__list &:not(:first-child) {
     margin-left: 0px;
