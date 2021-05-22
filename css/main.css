@@ -811,11 +811,13 @@ body {
 .team__card {
   flex-basis: 100%;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 480px) {
   .team__card {
     max-width: 480px;
+    margin-bottom: 30px;
   }
 }
 
