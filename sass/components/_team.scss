@@ -1,8 +1,9 @@
 .team__box {
-  display: flex;
-  margin-left: auto;
-  justify-content: center;
-  flex-wrap: wrap;
+  margin: -15px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .team {
@@ -23,27 +24,33 @@
 }
 
 .team__card {
-  flex-basis: 100%;
+  // flex-basis: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin: 15px;
 
-  @media screen and (min-width: 480px) {
-    max-width: 480px;
-    margin-bottom: 30px;
+  @media screen and (min-width: 480px) and (max-width: 767.98px) {
+    // max-width: 480px;
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 199.98px) {
     flex-basis: calc((100% - 2 * 30px) / 2);
-    margin-left: auto;
-    margin-right: auto;
+    margin: 15px;
   }
 
   @media screen and (min-width: 1200px) {
     flex-basis: calc((100% - 4 * 30px) / 4);
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
+    margin: 15px;
   }
+
+  // @media screen and (min-width: 1200px) {
+  //   flex-basis: calc((100% - 4 * 30px) / 4);
+  //   &:not(:last-child) {
+  //     margin-right: 30px;
+  //   }
+  // }
 }
 
 .team__name {
